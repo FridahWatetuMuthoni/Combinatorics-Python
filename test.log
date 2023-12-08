@@ -1,0 +1,15 @@
+Date: 2018-11-08
+Author: Corey
+Description: This i a sample of a log file
+
+Okay, so this is a sample entry.
+Im going to write a few more lines that makes no sence
+Now lets look at a function that will allow us to get a slice of an iterator
+It basically like list slicing but in this case it performs slicing on an iterator
+
+What you will notice is that permutations and combinations dont repeat values.
+For example it doesnt give us something like aa or bb as one of the permutations
+To allow repeats, for example if we wanted to see all the different ways that we can create a 4 digit passcode
+we would not use combiations and permutations. for that we could use the product function
+The product function will give you the cartesian product of iterables that you pass in. If  you only pass in one iterable then
+we can tell it how many times we want it to be able to repeat those values
